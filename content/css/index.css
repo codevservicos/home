@@ -18,6 +18,13 @@
 }
 
 
+#services{
+    background: #21232B url('../img/back.jpg') no-repeat 50% 100%;
+    background-size: cover;
+    padding: 100px;
+}
+
+
 .img-size{
     width: 50px;
 }
@@ -89,7 +96,8 @@
 }
 
  .section-title{
-     color: #535f6f;
+     /*color: #535f6f;*/
+     color:#6d7685;
      text-transform: uppercase;
      font-size: 20px;
 }
