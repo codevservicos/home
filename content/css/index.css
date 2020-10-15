@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  
 }
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f8f9fb;
+  
 }
 a {
   text-decoration: none !important;
@@ -22,6 +26,8 @@ a {
   background-size: cover;
   padding: 100px;
 }
+
+
 
 .img-size {
   width: 50px;
@@ -131,15 +137,17 @@ box-shadow: 10px 10px 96px -30px rgba(0,0,0,0.12);
 }
 
 @media only screen and (max-width: 800px) {
+  #home{
+    margin-left: -2%;
+  }
   #home h1 {
     font-size: 25px;
   }
   #home h5 {
     font-size: 16px;
   }
-  #cards {
-    margin-left: 15%;
-  }
+
+
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 900px) {
